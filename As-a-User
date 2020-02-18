@@ -69,6 +69,7 @@ The first coloumn of menu is fixed and  very less width.
 Second column of menu  can be hide and expand using the key "["  . (Moving your mouse pointer will temperorily expand it if it is hidden ). If you click an item inside it, this menu and its right pane will change. 
 
 Project : 
+Search Project - and Selcet create project
 Mark as favourite: NAME: ID: TYPE: LEAD: Category:
 Project name can be duplicate.  
 But the project key should be unique.  (Jira admin access need to modify ). This will be 
@@ -121,6 +122,15 @@ Next-gen projects:
 Select "Next-gen" while creating a new project.(To create a new Next-gen project  no admin access require)
 Because the entities like issues, only available for that project and not globally.
 
+We can create a new EPIC by clicking + button or pressing "c"  - similar creating issue. 
+Select issue type as EPIC.
+We can add  issues to this EPIC. By clicking + symbol inside the EPIC.  
+Or we can add an elready existing issues to the EPIC by drag and drop. Or click the 3dots (...) on the top right of the issue. 
+There is a status bar for the EPIC which will show % completion of the EPIC.  
+We can remove an issue from EPIC as well.  
+
+Inside  the Next-gen procject, go to road map, then create EPIC. This will reflect the start date and due date added for that EPIC. 
+It also show the start date and due date for other EPIC also in the project. 
 
 
 
