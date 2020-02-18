@@ -1,0 +1,128 @@
+Scrum uses sprints, kanban doesnot have. 
+
+Sprint is a pre-determined amoutn of time where teams detyermine the work to get done. 
+
+If the team decided a two week sprint, every two weeks team holds a Sprint meeting. (This is not the daily stand up)
+During the sprint meeting , team discuss about below things. 
+What went well ? 
+What didn't go well? 
+What can we do better next sprint?
+Discuss and agree on work to be completed in the next sprint.
+
+Stand up meeting is where each team member  explains what was accomplished yesterday and the wwork intend to do today.
+And any road blocks or issues that arose are discussed.
+
+To Do / In Progress/ Done => These are the three state of a project. 
+
+Story : As a <user>  I want <some goals> so that <some reason >.
+        As a webdeveloper I want to able to add users to Jira so that my co workesrs can add bug.
+        
+Normally a story is for two weeks.
+Stories in Jira is user stories. And Epic in jira is multiple user stories.
+
+
+An EPIC is a big project that is too big for a single sprint. It is broken in to multiple user stories.
+When all the user stories are completed then the epic is completed.
+
+Issues hold the filed that contain your data. Stories,epics and bugs are types of issues.[ you can create yuour own custom issue type too]
+
+Projects are containers for issues. It organize things about your issues.  
+=> Inside a project we create different type of issues.Not necessary to have all types of issues to be there in the projects.
+=> Example: Sales team not require bug issue. 
+
+In the classic method, all entities have global scope. 
+Must be Jira admin to create the project.
+Compliated to mset up and maintain.
+
+
+Next gen projects are the projects where the isse types are project scope entities. 
+No special permission needed to  create next-gen projects.
+Easy to set up and maintain.
+
+Different JIRA versions
+Jira core:
+Team project collaberation 
+Business focussed project management
+task management
+
+Jira Software: 
+Jira core + agile functionality
+Kanban and scrum management
+SW development integration and tools ( bitbucket)
+
+Jira Service Desk:
+Jira core + help desk functionality 
+IT support and helpdesk ticketing 
+Troubleshooting management
+
+Using Jira software in jira cloud have benefits likes lower cost, automatic update and atlassian support included. 
+
+But if you are buying Jira server , it is one time payment, install on your own server , extreme customization possible. 
+==========
+Once you are in Jira - create an issue - short cut is  just press 'c'.
+To popup the left most menu, use / or \. 
+If you see the notification page, there are two tabs - Direct and watching. [ Notification from the issues for you mentioned watch comes under - watching]
+Below the notification symbol, there is a menu button- which will open a menu for other Jira products for you have access. 
+Last symbol is to access your profile and settings. 
+
+The first coloumn of menu is fixed and  very less width. 
+Second column of menu  can be hide and expand using the key "["  . (Moving your mouse pointer will temperorily expand it if it is hidden ). If you click an item inside it, this menu and its right pane will change. 
+
+Project : 
+Mark as favourite: NAME: ID: TYPE: LEAD: Category:
+Project name can be duplicate.  
+But the project key should be unique.  (Jira admin access need to modify ). This will be 
+Projecy type is typically says what type of project. (Jira admin access need to modify )
+Project lead - All the unassigned issues assigned to project lead,and he is responsible for assigning them to proper team member. 
+(Though this can be changed from project settings - )
+Project category can be used to mark the project for which  team/client etc.
+
+When you are inside the project,  left side pane shows Board (which is teh agile board)
+
+How to create releases inside a project????????
+
+
+Using advanced search,we can use JQL
+
+Ex : issuetype  = Story AND project = ISS AND status = "In Progress"
+This search we can save. 
+
+We can switch from JQL search to basic. In basic also there are a number of critiria  to add  for a search.
+
+For an issue, selcting and updating work log will help to track the time to complete that issue. 
+
+Activity details will show history/comments/worklog etc. 
+
+Watch option allow to notify the reporter when something changes in the issue. 
+
+If Jira is connected with github/bitbucket  etc, a branch can be created from JIRA for that issu.
+
+Right side of the issue name, button to copy the link for that issue.
+
+Filters - are  saved search. Using advances search,we can save the search for future use. 
+
+Click on the search, check the bottom side, there you can select issues/board/project/filte/people etc.
+
+==
+Sprint: 
+On a sprint board, top side it will show Sprint name. 
+Near the search filed, it will show  users who have issue on this borad. Right side of that there is a quick filter as well.
+On the riht hand side top, it will show how many days remaining for that sprint. If you want to complete the spring, there is another button available.
+
+To crate a new sprint: go to backogs, there in the right side it shows "create sprint".
+Give sprint name and sprint goal. Drag the issues to the new sprint. Then click "start the sprint"
+From right side, we can select board settings and see the coloumn detail. 
+
+KANBAN Board: 
+From the kanban board, right side top settings select the "open issue in sidebar" or "dialog" to change the way how the issue is opening. 
+check board settings for more details. 
+
+Next-gen projects: 
+Select "Next-gen" while creating a new project.(To create a new Next-gen project  no admin access require)
+Because the entities like issues, only available for that project and not globally.
+
+
+
+
+
+
