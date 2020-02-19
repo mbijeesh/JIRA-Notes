@@ -1,0 +1,42 @@
+Create a new board: 
+
+Search > Board > create board (right top)
+
+From a project, left menu, go to down > create board. 
+Select scrum or kanban.
+If we have already a saved filter available for other board, select "board from and existing saved filter".
+Or select " Board from an existing project"
+A board can be added to more than one project. 
+
+From the backlog, 
+Add the issues on which you want to work.
+Start the sprint. 
+Select duration of sprint and start date.
+Normally no more issues added to a sprint once it is started. 
+Though we can add issues, which will show a warning message. 
+Once the sprint complete it is not necessary to complete all the issues. 
+While closing the sprint we can select "move the incomplete issues to new sprint" or move to backlog. 
+
+After completint the sprint, click retrospective time. 
+What went well.  
+What went not well
+How can we improve. 
+
+Editing the SCRUM board settings. 
+From the board, go to  settings (...), select board settings.
+We can modify the saved filters.
+
+To add the issues from another project to this board:
+Select filter> click the curren project name with drop down > select the second project.
+Then we can add issue from the second project to the sprint which is in the first project..
+
+To add more coloum to the board, like In progress,peer review etc.
+From the board settings > coloumn > add coloumn 
+
+Swimlanes is the setting to break up issues on the board based on another parameter, like based on EPIC, Story, assignee etc.
+
+Estimation is good in calculate/analyse the time. 
+
+Working day  settings is to select the actual working days.This will heelp to high light off shift days.
+
+
