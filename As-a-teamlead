@@ -3,7 +3,7 @@ Create a new board:
 Search > Board > create board (right top)
 
 From a project, left menu, go to down > create board. 
-Select scrum or kanban.
+Select scrum or kanban. 
 If we have already a saved filter available for other board, select "board from and existing saved filter".
 Or select " Board from an existing project"
 A board can be added to more than one project. 
@@ -38,5 +38,30 @@ Swimlanes is the setting to break up issues on the board based on another parame
 Estimation is good in calculate/analyse the time. 
 
 Working day  settings is to select the actual working days.This will heelp to high light off shift days.
+
+Kanban board is an ongoing process; there is no sprint.  
+While creating a Kanban board with saved filters used for SCRUM board, all the issues in the SCRUM board will be visible in the new Kanban board. 
+While you are on the board, go to board settings and coloumn > Add coloumn to add more coloumn to the work flow. 
+If you change the status of an issue from one board,  it will reflect on all the boards wherever the issues is  visible. 
+
+Creating a new release is helpful to move the issues with DONE status under that release and clean the board. 
+These issues can be visible under Releases > Release Name. 
+For each release there is a start date and release date. After the release date, the issues with DONE  status move to that release. 
+
+Editing Kanaban Board:
+To search JQL: example, issues from project CoreIT will list ascending order.  
+project = "Core IT" ORDER BY assignee ASC
+Assigned to an assignee. 
+project = "Core IT" AND assignee = 5c49a612c694663913aa1156
+
+
+
+
+
+
+
+
+
+
 
 
