@@ -54,6 +54,35 @@ project = "Core IT" ORDER BY assignee ASC
 Assigned to an assignee. 
 project = "Core IT" AND assignee = 5c49a612c694663913aa1156
 
+Creating Dashboard:
+Go to JIRA Home > Dashboard > TopRight - settings > Create dashboard. 
+Give name,description and select share - and add to whom you want to share. Don't forgot to click "Add" button  and then save. 
+Once created the dashboard, add gadget.
+
+Creating filter or saved search:
+ Search >  Advanced search > search for some filed to filter > after the search save the search with a name. 
+ While sharing a dashboard with the saved filter, other members cannot see the results because the saved filter is not shared. 
+ So ensure both dashboard and savd filter are having proper share permissions.
+
+Creating Multiple issues in bulk.
+Create > Issue > Select Import issues > Select the CSV file> next> Import to project > next >Map the fields in csv with the JIRA fields > Import
+
+CSV file Format format for bulk issue creation.
+issue Type : Summary: Duplicate : Sorting field
+
+Editing issues in bulk: 
+Search > Advanced search > select the criteria and then on the top right settings > Bulk changes all (5) issues.
+
+Reports : 
+Go to board > Select Reports > There are different type of reports available. Select the format and criteria.
+
+To download the issues in  csv, use any saved search or new search and use "export" which is on the top right side. We can customize the coloumns required. 
+
+
+
+
+
+
 
 
 
