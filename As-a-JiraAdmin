@@ -1,0 +1,73 @@
+Once the user who created issues no more with the company, then do not delete the user instead revoke the access.
+
+If you have the JiraAdmin access,  from the atlassian menu, go to "site administration" 
+
+
+Go to site seettings:
+Site access, select who can join the atlassian jira site. Options are:
+Only invited users, 
+Anyone with following emiail address domain.
+Anyone.
+
+For invitation there is a settings, 
+Users can invite others.
+
+Access requests under user management show the pending access requests and admin can approve or reject these requests.
+
+From the user management tab admin can invite user using the email id.(For JIRA/confluence/ etc.)
+From here itself we can assign group for that user.
+Groups can be created from the "groups" tab. 
+
+
+Product access tab shows the License usage. 
+From "view configuration" tab,  we can see the current settings and we can change the parameters.
+For example Next-gen projects can be created "by any user"  can be change to only for  "manager" group. 
+
+Creating classic project: require admin access.
+Go to project> Create project> Name & Key > Template > scrum / kanban /bug tracking etc>
+
+From the project, click "Project settings"  for modifying the project settings.
+We can add people to this project. Use "people" tab.
+
+Deleting the project is permenant, no one can restore that after deleting. 
+Each issue type can be configured differently - from the "issue types" tab.
+"Issue lay out" can be used to controll the appearance of the issue. 
+"Screen " settings also used to control  the appearnce. We can select which felds neeed to display on the issue. 
+
+"Work flow " defines what are the status your issues can select.
+"version "  - tab can be used for  version/release 
+"Components"  - are similar to versioning.
+"Permission"  - Like who can manage sprints, Administer projects, browse projects, delete issues.
+              Issue Security can be used to set who can view the issues. 
+"Notification"  -  Control notifications .  Issue created/modified/Assigned/Resolved etc. 
+"Issue collectors" - Kind of feed back mechanism.
+"Development tools" - Using this we can  connect the development tool like 'bitbucket' to this project. 
+-----------------
+Jira Settings can be used to apply a global settings and not specfic to a project.
+Systen settings> General settings.
+Example: How dashboard look like. 
+Permission helper and notification helper - mostly used in this part. 
+
+Application access - can control access to differnt applications. 
+
+jira sw configuration > from here we can set parallel sprint on a single scrum board. 
+
+Project administration is also there in Jira settings. 
+
+Issues settings under jira settings, normally use this settings - adjust work flows. Issue features etc. 
+Apps - To buy new add on etc.
+User management -  For managing billing and licensing 
+-------------------
+
+
+
+
+
+
+
+
+
+
+
+
+ 
