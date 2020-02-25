@@ -58,6 +58,50 @@ Issues settings under jira settings, normally use this settings - adjust work fl
 Apps - To buy new add on etc.
 User management -  For managing billing and licensing 
 -------------------
+Project > Project settings > Summary -- shows schemes. 
+
+Scheme - For example if you want to create three projects with same issue type,  create a scheme apply the issue types , 
+and then apply the scheme to all three projects. 
+If you want to update the issue types, just update the scheme and appy. 
+From the "JIRA settings > Issues > Issue types  : This will show issues and associated issue types.
+From the "JIRA settings > Issues > Issue type scheme:  Show schemes and the projects associated with that scheme.
+From here we can select "default issue type" for the projects associated with that scheme.
+Soem of the other use case of scheme are:
+Workflow
+Field configuration
+Screen 
+In case yu want to update the issue type for only one of the projects, then copy the scheme and update it with the new issue type. 
+Then from Project Settings > Summary >  Select the scheme > Actions > Use differentg scheme > Use the newly created scheme
+
+-------
+Creating custom issue types:
+JIRA setings > issue > Issuetypes > Add issue type : 
+Select the type : Standard or Sub-task 
+After creating it will be associated with default issue type scheme. Which means it is only available to unconfigured projects.
+-----
+Custom fields:
+JIRA Settings > issue >  Custom fields > Add custom field.
+(After creating the custom field, we should work on screen for actually displaying this filed while creating the new issue)
+For that, 
+JIRA Settings > Issues > screens > Add new screen >  
+Select the field tab:
+Summary is a required field tab in JIRA.
+Add other fields required for that issue. 
+Now apply this screen  to the project. 
+For that, 
+JIRA settings > Screen scheme> Add screen scheme > Select the the new screen we created 
+Then we can edit the scheme - when to use like while edit/create/View the issue. 
+Other way is, use 
+Issue types screen  schemes > Configure the scheme> Associate an issue type with screen scheme > Select issue type and Screen scheme.
+--------------------------
+
+WORKFLOW
+Coloumns with status.
+Workflow is the transition of the status of an  issue from one to another. 
+When an issue is done, you can add a resolution. 
+
+
+
 
 
 
