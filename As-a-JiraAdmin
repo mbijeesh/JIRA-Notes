@@ -99,6 +99,45 @@ WORKFLOW
 Coloumns with status.
 Workflow is the transition of the status of an  issue from one to another. 
 When an issue is done, you can add a resolution. 
+Workflow scheme can be apply to a project. 
+
+Active workflow - used by atleast one project. 
+Inactive workflow - Not being used inside Jira. 
+While editing an active workflow, actually we are editing a copy and  if you want to 
+apply the changes, we need to publish it for overwrting the original. 
+Using the diagram or text we can define the workflow. 
+If you are creating a new workflow coloumn, a status also need to create, so that we can map.
+Add status > select status >  Select if we want to allow transition to this status from all other status.
+Example _ add a new status review - before done and after In progress. Ensure the workflow allow transitions to Done only from Review. 
+
+---------------
+Resolutions: 
+Can be used to state how an isssue is completed ( It is not manadatory that work is actually completed , but we can move to Done. )
+For example - a duplicate issue  don't want to move through all transtion status. We can mark as duplicate as resolution 
+and complete it by moving to DONE.
+
+Done - Work has been completed on this issue.
+Won't do - the issue won't be actioned. 
+Duplicate - Duplicate of an existing issue. 
+Cannot reproduce - Cannot reproduce the issue - like bug. 
+postpone - Not going to do now, but may be later. Then we need to reopen the issue. 
+
+We can add  new resolution - 
+JIR Asettings > Resolutions > Add new resolution
+After adding new resolutio, we should ensure the screen also reflect the resolution  box. 
+Mostly we need to customize the screen or add a new screen - like "resolve issue screen"
+
+One of the common problem with a an issue that is moved Done state using resolution is, 
+if we moving that issue from DONE to other status again like to IN Progress - the resolution will not clear.
+For that we n the workflow we have to apply "post function" 
+
+post function - Add post function - update issue field - Add -  Select issue filed as resolution resolution - field value as none.
+ 
+From board settings we can select simplified workflow as well.
+---------------
+
+
+
 
 
 
